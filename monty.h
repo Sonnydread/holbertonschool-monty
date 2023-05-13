@@ -1,6 +1,5 @@
 #ifndef MONTY_H
 #define MONTY_H
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -48,16 +47,16 @@ void (*f)(stack_t **stack, unsigned int line_number);
  * @argum: argument@
  * @ndata: DLL data
  * @line_num: line number
-
+ */
 typedef struct info_s
 {
-  int type;
-  FILE *fp;
-  stack_t *head;
-  char *opcode;
-  char *argum;
-  int ndata;
-  unsigned int line_num;
+int type;
+FILE *fp;
+stack_t *head;
+char *opcode;
+char *argum;
+int ndata;
+unsigned int line_num;
 } info_t;
 
 extern info_t var;
