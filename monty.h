@@ -74,5 +74,6 @@ void swap_op(stack_t **stack, unsigned int line_number);
 void add_op(stack_t **stack, unsigned int line_number);
 void nop_op(stack_t **stack, unsigned int line_number);
 void f_sub(stack_t **head, unsigned int counter);
+void x_div(stack_t **head, unsigned int counter);
 int delete_dnodeint_at_index(stack_t **head, unsigned int index);
 #endif

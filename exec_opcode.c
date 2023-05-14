@@ -20,6 +20,7 @@ instruction_t opcode_list[] = {
 {"add", add_op},
 {"nop", nop_op},
 {"sub", f_sub},
+{"div", x_div},
 {NULL, NULL}
 };
 
