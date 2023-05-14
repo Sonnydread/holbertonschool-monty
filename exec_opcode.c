@@ -22,6 +22,7 @@ instruction_t opcode_list[] = {
 {"sub", f_sub},
 {"div", x_div},
 {"mul", z_mul},
+{"mod", s_mod},
 {NULL, NULL}
 };
 
