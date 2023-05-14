@@ -1,4 +1,4 @@
-# Monty Language Interpreter
+# Monty Language Interpreter :technologist:
 ## About
 - This is an introductory project that explains:
 - What do LIFO and FIFO mean
