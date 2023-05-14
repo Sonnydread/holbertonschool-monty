@@ -10,12 +10,12 @@
 - How to work with git submodules
 
 ## Requirements
-- Ubuntu 14.04 LTS
-- GCC version 4.8.4 with flags: -Wall -Werror -Wextra and -pedantic
+- Ubuntu 20.04 LTS
+- GCC with flags: -Wall -Werror -Wextra and -pedantic
 
 ## Installation
 1. Clone the repository
-`https://github.com/ibeckermayer/monty.git`
+`https://github.com/Sonnydread/holbertonschool-monty.git`
 
 2. Compile the program
 `gcc -Wall -Werror -Wextra -pedantic *.c -o monty`
