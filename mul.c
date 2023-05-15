@@ -7,27 +7,25 @@
  */
 void z_mul(stack_t **head, unsigned int counter)
 {
-stack_t *h;
-int len = 0;
+stack_t *temp = *head;
+int len = 0, num;
 
-h = *head;
-while (h)
+while (temp)
 {
-h = h->next;
+temp = temp->next;
 len++;
 }
+
 if (len < 2)
 {
 fprintf(stderr, "L%d: can't mul, stack too short\n", counter);
 freeStack();
-fclose(var.fp);
 exit(EXIT_FAILURE);
 }
-freeStack();
-fclose(var.fp);
-exit(EXIT_FAILURE);
-{
-h = *head;
-*head = h->next;
-}
+temp = *head;
+(*head) = (*head)->next;
+num = temp->n;
+(*head)->n = (*head)->n * num;
+(*head)->prev = NULL;
+free(temp);
 }
