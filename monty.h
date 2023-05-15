@@ -80,5 +80,6 @@ void s_mod(stack_t **head, unsigned int counter);
 void v_pchar(stack_t **head, unsigned int counter);
 void w_pstr(stack_t **head, unsigned int counter);
 void q_rotl(stack_t **head, __attribute__((unused)) unsigned int counter);
+void j_rotr(stack_t **head, __attribute__((unused)) unsigned int counter);
 int delete_dnodeint_at_index(stack_t **head, unsigned int index);
 #endif

@@ -26,6 +26,7 @@ instruction_t opcode_list[] = {
 {"pchar",v_pchar},
 {"pstr",w_pstr},
 {"rotl",q_rotl},
+{"rotr",j_rotr},
 {NULL, NULL}
 };
 
