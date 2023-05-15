@@ -78,5 +78,6 @@ void x_div(stack_t **head, unsigned int counter);
 void z_mul(stack_t **head, unsigned int counter);
 void s_mod(stack_t **head, unsigned int counter);
 void v_pchar(stack_t **head, unsigned int counter);
+void w_pstr(stack_t **head, unsigned int counter);
 int delete_dnodeint_at_index(stack_t **head, unsigned int index);
 #endif

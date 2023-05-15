@@ -24,6 +24,7 @@ instruction_t opcode_list[] = {
 {"mul", z_mul},
 {"mod", s_mod},
 {"pchar",v_pchar},
+{"pstr",w_pstr},
 {NULL, NULL}
 };
 
